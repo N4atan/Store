@@ -1,0 +1,24 @@
+.item {
+    margin: auto auto auto auto;
+    width: 200px;
+    height: 300px;
+    border: 2px solid #ececec;
+    text-align: center;
+    background-color: #f9f9f9 ;
+}
+
+#imagemItem {
+        width: 150px;  /* Define a largura da imagem */
+        height: 150px; /* Define a altura da imagem (igual à largura) */
+        border-radius: 10%; /* Torna a imagem redonda */
+        object-fit: cover; /* Garante que a imagem se ajuste corretamente ao container */        
+        margin-top: 10px;
+}
+
+.item p {
+    color: rgb(50, 255, 47);
+}
+
+.carrinho-de-compras:hover {
+    cursor: pointer;
+}

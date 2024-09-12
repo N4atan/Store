@@ -1,7 +1,11 @@
 .divBody {
-    height: 78vh; 
+    height: auto; 
     margin-top: 10px;
     border: 2px solid rgb(236, 234, 234);
     border-radius: 5px;
-    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas de igual largura */
+    gap: 10px; /* Espaçamento entre os itens */
+    padding: 10px; /* Espaçamento interno da div */
+    box-sizing: border-box; /* Inclui padding e border na largura e altura totais */
 }
